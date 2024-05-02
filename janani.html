@@ -62,7 +62,8 @@ Step 1: Install Git
 - Make sure to select the appropriate options during the installation process.
 Step 2: Configure Git
 - Open a terminal or command prompt.
-- Set your username and email address by running the following commands: git config --global user.name "Your Name"
+- Set your username and email address by running the following commands: 
+git config --global user.name "Your Name"
 git config --global user.email "your.email@example.com"
 Replace "Your Name" with your desired username and "your.email@example.com" with your email address.
 Step 3: Set up the default branch name (optional)
@@ -93,7 +94,8 @@ git remote add <remote-name> <remote-url>
 Replace <remote-name> with a name for the remote repository (e.g., "origin") and
 <remote-url> with the URL of the remote repository. For example
 git remote add origin https://github.com/username/repository.git Pushing Changes to a Remote Repository
-After making changes to your local repository, you can push those changes to the remote repository using the git push command.
+After making changes to your local repository, you can push those changes 
+to the remote repository using the git push command.
 To push changes to a remote repository, use the following command:
 git push <remote-name> <branch-name> Replace <remote-name> with the name of the remote repository (e.g., "origin")
   and <branch- name> with the name of the branch you want to push. For example:
@@ -137,7 +139,8 @@ On branch main
 Your branch is up to date with 'origin/main'.nothing to commit, working tree clean
 23CS2503 - Git and Github for beginners Lab URK23CS5076
 8
-Notice that when you run git status it returns: working tree clean. This means that there are no changes to any files in your repo - YET.
+Notice that when you run git status it returns: working tree clean. This means 
+that there are no changes to any files in your repo - YET.
 Next, open and make a small change to the README.md file in a text editor. Then, 
 run the command git status to check that changes have been made to your file(s).
 git status
@@ -179,7 +182,8 @@ file or groups of files to version
 To keep track of changes to this file using git, you need to:
 1. Clone the repository.
 2. Move into the cloned repository
-3. Create a new branch using the command (replace feature-branch with your desired branch name). git checkout -b feature-branch
+3. Create a new branch using the command (replace feature-branch with your desired branch name). 
+  git checkout -b feature-branch
 4. Make modifications to files in your project.
 5. Use git add to add the changes to the staging area
 6. Commit the changes with a meaningful message
@@ -212,7 +216,8 @@ Replace <remote-url> with the URL of the remote repository.
 ●
 For example, to clone a repository hosted on GitHub, you can use git clone https://github.com/username/repository.git
 Adding a Remote Repository
-● If you have an existing local repository and want to connect it to a remote repository, you can use the git remote add command.
+● If you have an existing local repository and want to connect it to a remote repository,
+  you can use the git remote add command.
 ● To add a remote repository, use the following command: git remote add <remote-name>
 <remote-url>
 ●
@@ -296,7 +301,8 @@ Pushing Changes and Creating Pull Requests
 -
 Once you've made changes on a branch, you can push the branch to your forked repository using git push origin <branch-name>.
 -
-After pushing the branch, you can create a pull request on the upstream repository to propose your changes for merging into the main codebase.
+After pushing the branch, you can create a pull request on the upstream repository
+  to propose your changes for merging into the main codebase.
 -
 On the upstream repository's page, find the "Pull requests" section and click the "New pull request" button.
 -
